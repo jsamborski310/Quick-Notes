@@ -26,7 +26,7 @@ This application was built using the following:
   * [Description](#description)
   * [Installation](#installation)
   * [License](#license)
-  * [Road Bumps](#road-bumps)
+  * [Application Screenshots](#screenshots)
   * [Preview](#preview)
   * [Questions](#questions)
 
@@ -46,7 +46,7 @@ Run the following code to install the dependancies:
 This application is covered under the MIT license.
 
 
-### Application Screenshots
+## Application Screenshots
 
 Preview screens of the application. 
 
