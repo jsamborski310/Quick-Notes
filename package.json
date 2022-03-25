@@ -2,8 +2,8 @@
   "name": "JATE",
   "version": "1.0.0",
   "engines:": {
-    "node": "14.17.3",
-    "npm": "6.14.13"
+    "node": "16.10.0",
+    "npm": "7.24.0"
   },
   "description": "Just another text editor.",
   "main": "server.js",
