@@ -2,6 +2,15 @@
 
 This is a text editor that runs in the browser and meets PWA criteria.
 
+## Table of Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Application Screenshots](#screenshots)
+  * [Preview](#preview)
+  * [Questions](#questions)
+
 ## Description
 
 The text editor is a single page application that runs both online and offline and meets PWA criteria. Data is stored and retrieved from an IndexedDB databse. 
@@ -20,15 +29,6 @@ This application was built using the following:
 * Wepack PWA Manifest
 * Service Workers
 
-
-## Table of Contents
-
-  * [Description](#description)
-  * [Installation](#installation)
-  * [License](#license)
-  * [Application Screenshots](#screenshots)
-  * [Preview](#preview)
-  * [Questions](#questions)
 
 ## Installation
 
