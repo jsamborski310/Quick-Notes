@@ -12,8 +12,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js',
-      header: './src/js/header.js'
+      // editor: './src/js/editor.js',
+      // header: './src/js/header.js'
     },
     // Output for bundles.
     output: {
@@ -62,6 +62,10 @@ module.exports = () => {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
+        },
+        {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
         },
         {
           test: /\.m?js$/,
