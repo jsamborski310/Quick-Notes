@@ -31,7 +31,7 @@ export const getDb = async (content) => {
 }
 
 // ---Logic to a method that accepts some content and adds it to the database (POST)
-export const putDb = async (content) => {
+export const putDb = async (id, content) => {
 
   console.log('Post to the database');
 
@@ -41,7 +41,7 @@ export const putDb = async (content) => {
 
   const store = tx.objectStore('jate');
 
-  const request = store.put({content: content});
+  const request = store.put({id: id, content: content});
 
   const result = await request;
 
